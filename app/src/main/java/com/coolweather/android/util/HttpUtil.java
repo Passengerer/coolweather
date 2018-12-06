@@ -1,5 +1,7 @@
 package com.coolweather.android.util;
 
+import android.util.Log;
+
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 

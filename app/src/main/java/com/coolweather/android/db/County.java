@@ -1,5 +1,7 @@
 package com.coolweather.android.db;
 
+import com.google.gson.annotations.SerializedName;
+
 import org.litepal.crud.DataSupport;
 
 /**
@@ -12,6 +14,7 @@ public class County extends DataSupport {
 
     private String name;
 
+    @SerializedName("weather_id")
     private String weatherId;
 
     private int cityCode;
